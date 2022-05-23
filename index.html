@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Find a nice photo</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="title">Find a nice picture</h1>
+
+            <input type="text" name="search" id="search" placeholder="Search a photo">
+            <select name="image_type" id="image_type">
+                <option value="">Select image type</option>
+                <option value="all">All</option>
+                <option value="photo">Photo</option>
+                <option value="ilustration">Ilustration</option>
+                <option value="vector">Vector</option>
+            </select>
+            <select name="image_cat" id="image_cat">
+                <option value="">Select category</option>
+                <option value="all">All</option>
+                <option value="backgrounds">backgrounds</option>
+                <option value="fashion">fashion</option>
+                <option value="nature">nature</option>
+                <option value="science">science</option>
+                <option value="education">education</option>
+                <option value="feelings">feelings</option>
+                <option value="health">health</option>
+                <option value="people">people</option>
+                <option value="religion">religion</option>
+                <option value="places">places</option>
+                <option value="animals">animals</option>
+                <option value="industry">industry</option>
+                <option value="computer">computer</option>
+                <option value="food">food</option>
+                <option value="sports">sports</option>
+                <option value="transportation">transportation</option>
+                <option value="travel">travel</option>
+                <option value="buildings">buildings</option>
+                <option value="business">business</option>
+                <option value="music">music</option>
+            </select>
+            <select name="image_per_screen" id="image_per_screen">
+                <option value="">Select photos per screen</option>
+                <option value="4">4</option>
+                <option value="12">12</option>
+                <option value="20">20</option>
+                <option value="40">40</option>
+            </select>
+            <button class="search_button" value="Search">Search</button>
+        </header>
+        <div class="container" id="container">
+
+        </div>
+
+        <div class="pagination" id="pagination">
+            <button id="previousBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
