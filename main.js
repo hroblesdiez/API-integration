@@ -51,7 +51,7 @@ previousBtn.addEventListener('click', () => {
    
 })
 
-const url = 'https://pixabay.com/api/?key=27571642-7916f741279441eb87d17c1c7';
+const url = 'https://pixabay.com/api/?key=my_key';
 
 const showPictures = async () => {
 
